@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nY8wI4GPQcriT/nx070+MeNlU9cyuVlYxtAikLzX5lP9Y1LclR/9m8LqQeB9kP5pACpOdXqnPk8RRwy0WhuUwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Samuel Guo\\Desktop\\CAB201_Assignment_2022_S1_n10840656\\CAB201_Assignment_AirCraftBookingSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samuel Guo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

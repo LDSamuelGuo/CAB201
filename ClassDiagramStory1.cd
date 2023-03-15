@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="ClassDiagram of the first user story">
+    <Position X="1.25" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="CAB201_UserInterfaceTest.InterfaceManagement.UserInterface">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAFAAkEAAAAZiAACAAAiAAUAAQAAAAABgAYAAAAAA=</HashCode>
+      <FileName>InterfaceManagement\UserInterface.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MenuItem" />
+      <Property Name="ApplicationContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.InterfaceManagement.Interfaces.AuthenticationInterface" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceManagement\Interfaces\AuthenticationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.InterfaceManagement.ApplicationContext" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQEAAAgAAAEQAEIAQAAAAAABAAAICBABAAAAAA=</HashCode>
+      <FileName>InterfaceManagement\ApplicationContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EmployeeDataProvider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.InterfaceManagement.MenuItem" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>InterfaceManagement\UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.Components.Menus.CommonMenu" Collapsed="true">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\Menus\CommonMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.DataProviders.BaseDataProvider&lt;T&gt;" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAwAAAAAJAAAAAAAAABAAAIEAAAACAAI=</HashCode>
+      <FileName>DataProviders\BaseDataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.DataProviders.EmployeeDataProvider" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataProviders\EmployeeDataProvider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAB201_UserInterfaceTest.Models.Employee" Collapsed="true">
+    <Position X="10.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgACAAAIAEAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
